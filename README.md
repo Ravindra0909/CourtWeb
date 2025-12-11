@@ -1,20 +1,55 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+CourtWeb – Digital Court Case Management System
 
-# Run and deploy your AI Studio app
+A full-stack MERN application designed to streamline and digitize court case workflows. Administrators can manage cases, schedule hearings, maintain records, and track case progress through a modern, user-friendly interface.
 
-This contains everything you need to run your app locally.
+🚀 Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/13Gjy-e2hcdGyXw1whNCh3d8ZHSzWmrQh
+Case Management: Add, update, delete, and view court cases.
 
-## Run Locally
+Hearing Scheduler: Assign dates, judges, and updates for each case.
 
-**Prerequisites:**  Node.js
+Case Status Tracking: Monitor case stages (Filed → Pending → Completed).
 
+Admin Dashboard: Centralized control panel for managing everything.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Secure Backend API: Node.js/Express with MongoDB.
+
+Fully Responsive UI: Built using React.
+
+🛠 Tech Stack
+Frontend
+
+React
+
+React Router
+
+Axios
+
+Tailwind / CSS
+
+Backend
+
+Node.js
+
+Express.js
+
+MongoDB / Mongoose
+
+Other Tools
+
+Git & GitHub
+
+Render (Backend Deployment)
+
+Vercel / Netlify (Frontend Deployment)
+
+HOW TO RUN LOCALLY
+
+Install Dependencies: Open your terminal in the project folder and run:
+npm install
+
+Build the Project: Run the build command to generate the static files:
+npm run build
+
+Run The project
+npm run dev
